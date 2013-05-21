@@ -18,7 +18,7 @@
 		</repository>
 		<snapshotRepository>
 			<id>sgavmp-snapshot</id>
-			<url>https://github.com/sgavmp/mavenrepo/raw/master/snapshots</url>
+			<url>https://github.com/sgavmp/mavenrepo/raw/master/releases</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -98,6 +98,15 @@
 		</dependency>
 	</dependencies>
 	<build>
+	<resources>
+			<resource>
+				<!-- default artifact is a sources build (except for the view server) -->
+				<directory>src</directory>
+			</resource>
+			<resource>
+				<directory>resources</directory>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>com.theoryinpractise</groupId>
