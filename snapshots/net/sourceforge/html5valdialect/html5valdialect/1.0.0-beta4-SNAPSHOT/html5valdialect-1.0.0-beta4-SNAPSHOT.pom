@@ -18,7 +18,7 @@
 		</repository>
 		<snapshotRepository>
 			<id>sgavmp-snapshot</id>
-			<url>https://github.com/sgavmp/mavenrepo/raw/master/releases</url>
+			<url>https://github.com/sgavmp/mavenrepo/raw/master/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
